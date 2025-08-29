@@ -64,7 +64,7 @@ body {
 
 .recipe__title {
   color: var(--stone-900);
-  font-size: clamp(2rem, 2.5vw, 2.45rem);
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
 }
 
 .recipe__prep-title {
@@ -116,6 +116,7 @@ b {
 }
 
 .recipe__title {
+  margin-top: 2.75rem;
   line-height: 1;
 }
 
