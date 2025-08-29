@@ -38,9 +38,9 @@
 body {
   background-color: var(--body-bg-clr);
   font-family: 'outfit', sans-serif;
-  margin: 0 auto;
-  max-width: 736px;
-  padding: 1rem;
+  margin: 7.6rem auto;
+  max-width: 768px;
+  padding: 0 1rem;
 }
 
 .container {
