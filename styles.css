@@ -187,10 +187,15 @@ tr:last-child td {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
+  body {
+    background-color: var(--recipe-bg-clr);
+  }
+
   body,
   .container {
     margin: 0 auto;
     padding: 0;
+    padding-bottom: 1rem;
   }
 
   .recipe {
