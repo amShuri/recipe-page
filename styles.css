@@ -7,6 +7,7 @@
   --body-bg-clr: hsl(29, 53%, 90%);
 
   --recipe-bg-clr: hsl(0, 0%, 100%);
+  --recipe-prep-clr: hsl(326, 100%, 99%);
   --light-gray: hsl(0, 0%, 85%);
 
   --stone-100: hsl(30, 54%, 90%);
@@ -130,6 +131,8 @@ b {
 }
 
 .recipe__prep-time {
+  background-color: var(--recipe-prep-clr);
+  border-radius: 0.87rem;
   padding: 1.45rem 1.8rem;
   padding-bottom: 0.5rem;
 }
